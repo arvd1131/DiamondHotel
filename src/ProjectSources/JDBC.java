@@ -19,7 +19,7 @@ public class JDBC {
         try {
 
             String url =
-            "jdbc:sqlserver://localhost:1433;trustServerCertificate=true;databaseName=GangchilInteriorDB;encrypt=true";
+            "jdbc:sqlserver://localhost:1433;trustServerCertificate=true;databaseName=DiamondHotelDB;encrypt=true";
 
             String user = "kaashiv";
             String password = "kaashiv";
