@@ -8,6 +8,7 @@ public class LoginFrame extends javax.swing.JFrame {
 
     public LoginFrame() {
         initComponents();
+        setLocationRelativeTo(null);
         setResizable(false);
         Clear();
     }
@@ -245,7 +246,7 @@ public class LoginFrame extends javax.swing.JFrame {
 
                     if ("admin".equalsIgnoreCase(role)) {
 
-                        new DashboardFrame().setVisible(true);
+                        new DashboardFrame(role).setVisible(true);
                         this.dispose();
 
                     } else {
